@@ -278,9 +278,19 @@ planet {
 }
 ```
 
-### auto-fill; empties go to zero
+### auto-fit; empties go to zero
+![](./media/auto-fit.png)
 
 ```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, 10%);
+}
 
 ```
+
+
+
+
 
