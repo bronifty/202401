@@ -220,7 +220,34 @@ rocky {
 }
 ```
 
+![](./media/grid-template-areas6.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 80px 50px 80px 1fr;
+  grid-template-rows: 1fr 80px 50px 80px 1fr;
+  grid-template-areas: "grass . rocky rocky rocky"
+  "grass . . . ."
+  "grass . . . water"
+  ". . . . water"
+  "dunes dunes dunes . water"
+  
+}
 
+grass {
+  grid-area: grass;
+}
 
+dunes {
+  grid-area: dunes;
+}
+
+water {
+  grid-area: water;
+}
+
+rocky {
+  grid-area: rocky;
+}```
 
 
