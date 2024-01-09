@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "5bfd2286a9ad13f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9db818a4265b375d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "275a57c8c2686091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/grid critters/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab8b0985e9881917",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa78a6ffb3078008",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c52ab038a82a031",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d61e08f7743cae61",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76df6c214a858fd4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f6a900f763e84ff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6cfb028e1491da1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5540638b050153b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "css/grid critters/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a42eaa880d96146b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "css/grid critters/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "61b045e626d36e81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "acf34ba5f1717534",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "css/grid critters/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "275a57c8c2686091",
+  "lastOpenFiles": [
+    "temp",
+    "tableau.png",
+    "css/wes bos/css-grid/assets/images/topography.svg",
+    "css/wes bos/css-grid/assets/images/flower.png",
+    "css/wes bos/css-grid/24 - Responisve Website/images/taco.jpg",
+    "css/wes bos/css-grid/24 - Responisve Website/images/queso-taco.png",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/9.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/8.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/7.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/6.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/5.jpg",
+    "css/wes bos/css-grid/assets/style.css",
+    "css/wes bos/css-grid/assets/images",
+    "css/wes bos/css-grid/26/index.html",
+    "css/wes bos/css-grid/25 - Full Bleed Blog Layout/full-bleed-blog-START.html",
+    "css/wes bos/css-grid/25 - Full Bleed Blog Layout/full-bleed-blog-FINISHED.html",
+    "css/wes bos/css-grid/24 - Responisve Website/responsive-START.html",
+    "css/wes bos/css-grid/24 - Responisve Website/responsive-START.css",
+    "css/wes bos/css-grid/24 - Responisve Website/responsive-FINISHED.html",
+    "css/wes bos/css-grid/24 - Responisve Website/responsive-FINISHED.css",
+    "css/wes bos/css-grid/readme.md",
+    "unisonlang/README.md",
+    "css/grid critters/README.md",
+    "css/wes bos/wes bos css grid mozilla course.md",
+    "gcp-data-ml/2 data lakes/1. intro.md",
+    "gcp-data-ml/1 fundamentals/5. vertex ai.md",
+    "gcp-data-ml/1 fundamentals/4. gcp ml options.md",
+    "gcp-data-ml/1 fundamentals/3. big query.md",
+    "gcp-data-ml/1 fundamentals/2. data proc.md",
+    "gcp-data-ml/1 fundamentals/1. intro.md",
+    "wasmcloud/README.md",
+    "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
+    "gcp-data-ml/01 foundation/5. vertex ai.md",
+    "rust/notes.md",
+    "gcp-data-ml/01 foundation/4. gcp ml options.md",
+    "gcp-data-ml/01 foundation/1. intro.md",
+    "gcp-data-ml/01 foundation/2. data proc.md",
+    "gcp-data-ml/01 foundation/3. big query.md",
+    "pathwaycom/llm-app RAG Operation.md",
+    "keystatic/next.md"
+  ]
+}

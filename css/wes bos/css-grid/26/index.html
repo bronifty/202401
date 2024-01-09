@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <p>Some content here</p>
+      </div>
+    </div>
+
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: span 2;
+        container-type: size;
+      }
+
+      /* Default styles for .content */
+      .content {
+        background-color: red;
+        padding: 1em;
+      }
+
+      /* Container query considering both width and height */
+      @container (min-width: 500px) {
+        .content {
+          background-color: lightgreen;
+          padding: 2em;
+        }
+      }
+    </style>
+  </body>
+</html>
