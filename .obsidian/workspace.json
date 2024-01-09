@@ -146,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "275a57c8c2686091",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
+    "css/grid critters/media/min-content.png",
+    "css/grid critters/README.md",
+    "css/grid critters/media/auto-fill2.png",
     "css/grid critters/media/duplicated-grid-line-names.png",
     "css/grid critters/media/auto-fit.png",
     "css/grid critters/media/auto-fill.png",
@@ -156,11 +159,7 @@
     "css/grid critters/media/grid-template-areas5.png",
     "css/grid critters/media/grid-template-areas4.png",
     "css/grid critters/media/grid-template-areas3.png",
-    "css/grid critters/media/grid-template-areas2.png",
-    "css/grid critters/media/grid-template-areas.png",
-    "css/grid critters/media/grid-area5.png",
     "Untitled.md",
-    "css/grid critters/README.md",
     "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/5. vertex ai.md",

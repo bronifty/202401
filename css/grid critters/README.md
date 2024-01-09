@@ -292,8 +292,35 @@ planet {
 ![](./media/duplicated-grid-line-names.png)
 
 
+![](./media/auto-fill2.png)
+```css
+planet {
+  display: grid;
+  grid-gap: 0 10vw;
+  grid-template-columns: repeat(auto-fill, 10vw);
+  grid-template-rows: repeat(auto-fill, 25vh);
+}
 
+```
 
+### min-content v max-content
+	- means text wrap or not (column size is basically auto, except it will either lay out everything on one line (max) or wrap (min))
+![](./media/min-content.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: minmax(auto, 1fr) auto min-content;
+  grid-gap: 5%;
+}
 
+rocky {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+water {
+  grid-area: 2 / 3 / 3 / 5;
+}
+```
 
 
