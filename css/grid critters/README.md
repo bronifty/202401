@@ -70,3 +70,61 @@ dunes {
 
 
 
+
+```css
+
+
+planet {
+  display: grid;
+  grid-template-columns: 35% [col-start] 1fr 1fr [col-end] 35%;
+  grid-template-rows: 35% [row-start] 1fr 1fr [row-end] 35%;
+}
+
+dunes {
+  grid-area: row / col;
+}
+```
+
+
+![](./media/grid-area5.png)
+
+```css
+planet {
+  display: grid;
+  grid-gap: 50px;
+   grid-template-columns: [grass-start rocky-start] 1fr 1fr [grass-end rocky-end dunes-start] 1fr [dunes-end]; grid-template-rows: [grass-row-start dune-row-start] 1fr [grass-row-end rocky-row-start] 1fr [rocky-row-end dune-row-end];
+   grid-template-rows: [grass-start dunes-start] 1fr [grass-end rocky-start] 1fr [rocky-end dunes-end];
+}
+
+rocky {
+  grid-area: rocky;
+}
+
+grass {
+  grid-area: grass;
+}
+
+dunes {
+  grid-area: dunes;
+}
+```
+
+![](./media/grid-template-areas.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". rocky rocky ."
+  
+}
+
+rocky {
+  grid-area: rocky;
+}
+
+```
+
+
+
+
