@@ -27,4 +27,20 @@ dunes {
 }
 ```
 
+![](./media/grid-area2.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+dunes {
+ grid-area: 2 / 2 / 4 / 4; 
+}
+```
+
+
+
+
 
