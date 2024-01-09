@@ -193,4 +193,34 @@ rocky {
 }
 ```
 
+![](./media/grid-template-areas5.png)
+```css
+planet {
+  display: grid;
+  grid-gap: 10% 0;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "grass grass dunes"
+  "grass grass dunes"
+  "rocky rocky rocky"
+  "rocky rocky rocky";
+  
+}
+
+grass {
+      grid-area: grass;
+}
+
+dunes {
+      grid-area: dunes;
+}
+
+rocky {
+      grid-area: rocky;
+}
+```
+
+
+
+
 
