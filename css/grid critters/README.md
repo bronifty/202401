@@ -149,3 +149,26 @@ dunes {
 ```
 
 
+![](./media/grid-template-areas3.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  grid-template-rows: 1fr 200px 1fr;
+  grid-gap: 25px;
+  grid-template-areas: "grass grass grass"
+  "rocky rocky rocky"
+  "dunes dunes dunes";
+}
+
+grass {
+  grid-area: grass;
+}
+
+dunes {
+  grid-area: dunes;
+}
+```
+
+
+
