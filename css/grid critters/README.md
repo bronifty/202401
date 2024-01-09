@@ -172,3 +172,25 @@ dunes {
 
 
 
+![](./media/grid-template-areas4.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas: "rocky rocky . dunes dunes dunes dunes . grass"
+}
+
+grass {
+ grid-area: grass; 
+}
+
+dunes {
+  grid-area: dunes;
+}
+
+rocky {
+  grid-area: rocky;
+}
+```
+
+
