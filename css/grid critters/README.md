@@ -264,3 +264,17 @@ planet {
 
 
 
+### min-content max content
+
+![](./media/auto-fill.png)
+
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, 250px);
+}
+```
+
+
+
