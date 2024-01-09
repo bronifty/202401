@@ -251,3 +251,16 @@ rocky {
 }```
 
 
+![](./media/auto.png)
+
+```css
+planet {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+}
+
+```
+
+
+
+
