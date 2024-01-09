@@ -266,6 +266,8 @@ planet {
 
 ### min-content max content
 
+
+### auto-fill
 ![](./media/auto-fill.png)
 
 ```css
@@ -276,5 +278,9 @@ planet {
 }
 ```
 
+### auto-fill; empties go to zero
 
+```css
+
+```
 
