@@ -40,8 +40,18 @@ dunes {
 }
 ```
 
+![](./media/grid-area3.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+grass {
+ grid-area: 1 / 2 / -1  / -1;
+}
+```
 
 
-
-
-.
