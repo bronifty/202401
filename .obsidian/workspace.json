@@ -11,8 +11,12 @@
             "id": "275a57c8c2686091",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "css/grid critters/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "css/grid critters/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "css/grid critters/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "css/grid critters/README.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
+    "Untitled.md",
+    "css/grid critters/README.md",
     "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/recall-and-precision.png",
@@ -166,10 +176,8 @@
     "css/wes bos/css-grid/25 - Full Bleed Blog Layout/full-bleed-blog-START.html",
     "css/wes bos/css-grid/25 - Full Bleed Blog Layout/full-bleed-blog-FINISHED.html",
     "css/wes bos/css-grid/24 - Responisve Website/responsive-START.html",
-    "css/wes bos/css-grid/24 - Responisve Website/responsive-START.css",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
-    "css/grid critters/README.md",
     "unisonlang/README.md",
     "wasmcloud/README.md",
     "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
