@@ -92,8 +92,8 @@ dunes {
 planet {
   display: grid;
   grid-gap: 50px;
-   grid-template-columns: [grass-start rocky-start] 1fr 1fr [grass-end rocky-end dunes-start] 1fr [dunes-end]; grid-template-rows: [grass-row-start dune-row-start] 1fr [grass-row-end rocky-row-start] 1fr [rocky-row-end dune-row-end];
-   grid-template-rows: [grass-start dunes-start] 1fr [grass-end rocky-start] 1fr [rocky-end dunes-end];
+   grid-template-columns: [grass-start rocky-start] 1fr 1fr [grass-end rocky-end dunes-start] 1fr [dunes-end]; 
+   grid-template-rows: [grass-row-start dune-row-start] 1fr [grass-row-end rocky-row-start] 1fr [rocky-row-end dune-row-end];
 }
 
 rocky {
@@ -126,5 +126,26 @@ rocky {
 ```
 
 
+
+![](./media/grid-template-areas2.png)
+```css
+planet {
+  display: grid;
+  grid-column-gap: 10%;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". . ."
+  ". grass grass"
+  "dunes grass grass";
+}
+
+grass {
+      grid-area: grass;
+}
+
+dunes {
+  grid-area: dunes;
+}
+```
 
 
