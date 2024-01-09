@@ -55,3 +55,18 @@ grass {
 ```
 
 
+![](./media/grid-area4.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr [side-start] 100px 100px 100px [side-end];
+  grid-template-rows:  1fr [bottom-start] 100px 100px 100px [bottom-end];
+}
+
+dunes {
+  grid-area: bottom /side;
+}
+```
+
+
+
