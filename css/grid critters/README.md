@@ -324,3 +324,17 @@ water {
 ```
 
 
+### grid-template
+- combines grid-template-rows grid-template-columns and grid-template-areas
+![](./media/grid-template.png)
+```css
+
+planet {
+  display: grid;
+  grid-column-gap: 10%;
+  grid-template: 1fr 20% / repeat(4, 1fr);
+}
+
+```
+
+
