@@ -337,4 +337,22 @@ planet {
 
 ```
 
+![](./media/grid-template2.png)
+```css
+
+planet {
+  display: grid;
+  grid-gap: 5%;
+  grid-template:  ". rocky rocky ." 200px
+                  ". rocky rocky ." 1fr
+                   / 1fr 1fr 1fr 1fr;
+}
+
+rocky {
+  grid-area: rocky;
+}
+
+```
+
+
 
