@@ -289,6 +289,9 @@ planet {
 }
 
 ```
+![](./media/duplicated-grid-line-names.png)
+
+
 
 
 
