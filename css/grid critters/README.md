@@ -364,3 +364,5 @@ rocky {
 - when the grid auto flows columnarly, column position takes precedent and is set first
 ![](./media/grid-auto-flow.png)
 
+- grid-auto-flow specifies the direction and packing with rows sparse being the default
+![](./media/packing.png)
