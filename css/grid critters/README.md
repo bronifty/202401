@@ -409,3 +409,20 @@ rocky {
 
 
 
+![](./media/flow3.png)
+```css
+planet {
+  display: grid;
+  grid-template:   30%
+                   20%
+                   20%
+                   30%
+                   / 1fr 1fr 1fr 1fr;
+              grid-auto-flow: column;     
+}
+
+dunes {
+  grid-column: span 4;
+  grid-row: 3;
+}
+```
