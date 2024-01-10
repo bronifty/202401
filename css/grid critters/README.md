@@ -366,3 +366,25 @@ rocky {
 
 - grid-auto-flow specifies the direction and packing with rows sparse being the default
 ![](./media/packing.png)
+
+### Flow
+![](./media/flow.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr minmax(50vh, 1fr) 100px;
+  grid-template-columns: 1fr 10%;
+}
+
+dunes {
+grid-column: 2;
+}
+
+rocky {
+  order: 1;
+}
+water {
+  
+}
+```
+
