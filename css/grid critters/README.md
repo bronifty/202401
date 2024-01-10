@@ -360,3 +360,7 @@ rocky {
 - grid-row takes precedent over order and grid-column
 ![](./media/placement.png)
 
+### grid-auto-flow
+- when the grid auto flows columnarly, column position takes precedent and is set first
+![](./media/grid-auto-flow.png)
+
