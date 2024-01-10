@@ -356,3 +356,7 @@ rocky {
 
 
 
+### Flow Placement and Order
+- grid-row takes precedent over order and grid-column
+![](./media/placement.png)
+
