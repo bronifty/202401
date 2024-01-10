@@ -426,3 +426,37 @@ dunes {
   grid-row: 3;
 }
 ```
+
+![](./media/flow4.png)
+```css
+
+planet {
+  display: grid;
+  grid-gap: 0 100px;
+  grid-template:  "grass dunes rocky water"  1fr
+                    / 1fr 1fr 1fr 1fr;
+  
+}
+
+grass {
+  /*order: 1;*/
+  grid-area: grass;
+}
+
+water {
+  grid-area: water;
+}
+
+dunes {
+  grid-area: dunes;
+}
+
+rocky {
+  grid-area: rocky;
+}
+
+```
+
+### auto-columns
+![](./media/auto-columns.png)
+
