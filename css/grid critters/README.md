@@ -388,3 +388,24 @@ water {
 }
 ```
 
+![](./media/flow2.png)
+```css
+planet {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-rows: 1fr 100px 1fr 100px 1fr;
+  grid-template-columns: 200px 200px 200px;
+grid-auto-flow: column dense;
+}
+
+rocky {
+    /*grid-row: span 2;*/
+    /*grid-column: span 2;*/
+    /*order: 1;*/
+    grid-column: span 2;
+    grid-row: span 2;
+}
+```
+
+
+
