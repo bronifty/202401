@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/grid critters/README.md",
+                "file": "DeepLearning.AI/LLMOps/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "video-infra/linux file system.md",
+                "file": "DeepLearning.AI/LLMOps/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "video-infra/linux file system.md",
+                "file": "DeepLearning.AI/LLMOps/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "video-infra/linux file system.md"
+                "file": "DeepLearning.AI/LLMOps/README.md"
               }
             }
           }
@@ -159,13 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c52ab038a82a031",
+  "active": "275a57c8c2686091",
   "lastOpenFiles": [
+    "css/grid critters/README.md",
+    "DeepLearning.AI/LLMOps/README.md",
+    "DeepLearning.AI/LLMOps",
+    "DeepLearning.AI",
+    "video-infra/linux file system.md",
     "video-infra/media/linux-file-system.png",
     "video-infra/media",
-    "css/grid critters/README.md",
-    "video-infra/linux file system.md",
-    "Untitled",
     "video-infra",
     "css/grid critters/media/auto-columns.png",
     "css/grid critters/media/flow4.png",
@@ -176,7 +177,6 @@
     "css/grid critters/media/grid-auto-flow.png",
     "css/grid critters/media/placement.png",
     "css/grid critters/media/grid-template2.png",
-    "css/grid critters/media/grid-template.png",
     "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/5. vertex ai.md",
@@ -189,7 +189,6 @@
     "gcp-data-ml",
     "css/wes bos/css-grid/26/index.html",
     "css/wes bos/css-grid/assets/style.css",
-    "css/wes bos/css-grid/assets/images",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
     "unisonlang/README.md",
