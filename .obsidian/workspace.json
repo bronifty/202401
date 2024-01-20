@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "125eac9fc5db64fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "video-infra/linux file system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/grid critters/README.md",
+                "file": "video-infra/linux file system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/grid critters/README.md",
+                "file": "video-infra/linux file system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/grid critters/README.md"
+                "file": "video-infra/linux file system.md"
               }
             }
           }
@@ -146,8 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "275a57c8c2686091",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
+    "video-infra/media/linux-file-system.png",
+    "video-infra/media",
+    "css/grid critters/README.md",
+    "video-infra/linux file system.md",
+    "Untitled",
+    "video-infra",
     "css/grid critters/media/auto-columns.png",
     "css/grid critters/media/flow4.png",
     "css/grid critters/media/flow3.png",
@@ -158,9 +177,6 @@
     "css/grid critters/media/placement.png",
     "css/grid critters/media/grid-template2.png",
     "css/grid critters/media/grid-template.png",
-    "css/grid critters/media/min-content.png",
-    "css/grid critters/README.md",
-    "Untitled.md",
     "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/5. vertex ai.md",
@@ -174,9 +190,6 @@
     "css/wes bos/css-grid/26/index.html",
     "css/wes bos/css-grid/assets/style.css",
     "css/wes bos/css-grid/assets/images",
-    "css/wes bos/css-grid/25 - Full Bleed Blog Layout/full-bleed-blog-START.html",
-    "css/wes bos/css-grid/25 - Full Bleed Blog Layout/full-bleed-blog-FINISHED.html",
-    "css/wes bos/css-grid/24 - Responisve Website/responsive-START.html",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
     "unisonlang/README.md",

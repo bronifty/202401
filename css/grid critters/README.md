@@ -460,3 +460,21 @@ rocky {
 ### auto-columns
 ![](./media/auto-columns.png)
 
+
+- grid-auto-columns and grid-auto-rows
+	- set the size of columns and rows created implicitly (default is auto or the size of content)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 100px;
+}
+
+rocky {
+  grid-column-end: 6;
+}
+```
+
+
+
