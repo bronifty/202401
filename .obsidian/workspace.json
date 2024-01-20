@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "125eac9fc5db64fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "video-infra/linux file system.md",
+                "file": "video-infra/mdn-dom-examples-mediastream.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "video-infra/mdn-dom-examples-mediastream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "video-infra/mdn-dom-examples-mediastream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md"
+                "file": "video-infra/mdn-dom-examples-mediastream.md"
               }
             }
           }
@@ -160,6 +148,8 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
+    "video-infra/justcast.it.md",
+    "video-infra/mdn-dom-examples-mediastream.md",
     "css/grid critters/README.md",
     "DeepLearning.AI/LLMOps/README.md",
     "DeepLearning.AI/LLMOps",
