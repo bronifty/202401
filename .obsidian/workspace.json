@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "video-infra/mdn-dom-examples-mediastream.md",
+                "file": "css/grid critters/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "video-infra/mdn-dom-examples-mediastream.md",
+                "file": "css/grid critters/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "video-infra/mdn-dom-examples-mediastream.md",
+                "file": "css/grid critters/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "video-infra/mdn-dom-examples-mediastream.md"
+                "file": "css/grid critters/README.md"
               }
             }
           }
@@ -148,10 +148,13 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
-    "video-infra/justcast.it.md",
-    "video-infra/mdn-dom-examples-mediastream.md",
-    "css/grid critters/README.md",
+    "css/grid critters/media/repeat-auto-fit.png",
+    "devops/the phoenix project.md",
     "DeepLearning.AI/LLMOps/README.md",
+    "devops",
+    "css/grid critters/README.md",
+    "video-infra/mdn-dom-examples-mediastream.md",
+    "video-infra/justcast.it.md",
     "DeepLearning.AI/LLMOps",
     "DeepLearning.AI",
     "video-infra/linux file system.md",
@@ -178,7 +181,6 @@
     "gcp-data-ml/1 fundamentals",
     "gcp-data-ml",
     "css/wes bos/css-grid/26/index.html",
-    "css/wes bos/css-grid/assets/style.css",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
     "unisonlang/README.md",

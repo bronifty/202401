@@ -476,5 +476,17 @@ rocky {
 }
 ```
 
+![](./media/repeat-auto-fit.png)
+```css
+
+planet {
+  display: grid;
+  grid-row-gap: 5%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, 100px);
+}
+
+```
+
 
 
