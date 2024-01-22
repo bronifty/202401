@@ -574,3 +574,33 @@ water {
 ```
 
 
+![](./media/difficult.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+  grid-gap: 50px;
+  grid-auto-flow: row;
+}
+
+dunes {
+  height: 50%;
+  /*grid-area: dunes;*/
+  grid-column: 3/5; 
+  grid-row: 1/ 3;
+  align-self: end;
+}
+
+rocky {
+  height: 50%;
+  grid-row: 2/ 4;
+  grid-column: 1/3;
+  align-self: top;
+}
+
+water {
+  grid-column: span 2;
+}
+```
