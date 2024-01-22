@@ -597,7 +597,7 @@ rocky {
   height: 50%;
   grid-row: 2/ 4;
   grid-column: 1/3;
-  align-self: top;
+  align-self: start;
 }
 
 water {
