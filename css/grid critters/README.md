@@ -776,4 +776,30 @@ water {
 ```
 
 
+### Justify and Align Content
+
+![](./media/justify-content.png )
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 75px 200px 75px;
+  justify-content: center;
+}
+
+
+```
+
+![](./media/justify-content2.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: space-between;
+}
+```
+
+
+
 
