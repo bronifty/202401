@@ -525,3 +525,34 @@ dunes {
 ```
 
 
+### Justify and Align Content and Self
+
+
+![](./media/justify-self.png)
+```css
+
+planet {
+  display: grid;
+  grid-template:   1fr 
+                   1fr
+                   / 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-items: center;
+}
+
+water {
+  justify-self: start;
+}
+
+rocky {
+      justify-self: end;
+}
+
+terrain {
+  width: 50%;
+  height: 100%;
+}
+```
+
+
+
