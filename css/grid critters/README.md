@@ -748,7 +748,32 @@ rocky {
 }
 ```
 
+![](./media/working-the-flow.png)
 
+```css
+planet {
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+dunes {
+  height: 50%;
+  grid-row: span 2;
+  align-self: end;
+}
+
+rocky {
+  height: 75%;
+  grid-row: span 2;
+  align-self: center;
+}
+
+water {
+  grid-column: span 2;
+}
+```
 
 
 
