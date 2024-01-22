@@ -801,5 +801,15 @@ planet {
 ```
 
 
+![](./media/space-evenly.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 200px 100px 200px;
+  grid-template-rows: 1fr;
+  justify-content: space-evenly;
+}
+```
+
 
 
