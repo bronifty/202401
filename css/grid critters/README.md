@@ -834,3 +834,21 @@ planet {
   align-content: center;
 }
 ```
+- start 
+- end 
+- center
+- space-around
+- space-between
+- space-evenly
+
+
+![](./media/space-evenly2.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 150px 150px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+```
