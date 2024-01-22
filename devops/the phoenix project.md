@@ -4,11 +4,22 @@ The global maxima (flow state aka getting things done) is a lean production tech
 
 Busybody bottleneck management techniques have a proper engineering rationale for why they are wrong and also costly and inefficient as well as ineffective.
 
-In complex systems, error states are expected and work should be managed so problems in design and operations are revealed. These bug fixes result in new organizational knowledge. The tactical approach to enabling these revelations is by creating fast or tight feedback and feedforward loops with small work batches and incremental improvements. Definitions: - feedback: unit, integration, end-to-end test results in lower envs, telemetry logs and observability in production - feedforward: Capacity planning, risk assessments, predictive analysis, and pre-deployment testing
+In complex systems, error states are expected and work should be managed so problems in design and operations are revealed. These bug fixes result in new organizational knowledge. 
+
+The tactical approach to enabling these revelations is by creating fast or tight feedback and feedforward loops with small work batches and incremental improvements. 
+
+Definitions: 
+- feedback: unit, integration, end-to-end test results in lower envs, telemetry logs and observability in production 
+- feedforward: Capacity planning, risk assessments, predictive analysis, and pre-deployment testing
 
 Note: this is an outer loop discussion so feedback refers to the outer loop (ci/cd) as opposed to the inner loop (dev). Dev's tight feedback loop is HMR etc
 
-The strategic approach to enabling an environment of discovery and continuous improvement (a learning organization) is cultural. The ideal technology culture is a high trust one reinforcing life long learning and risk taking with a scientific approach to process improvement and product development. Dr. Ron Westrum identified 3 types of management cultures: 1. Pathological: characterized by large amounts of fear and threat; people often hoard info, withhold it for political reasons, or distort it to make themselves look better; failure is often hidden 2. Bureaucratic: characterized by rules and processes, often to help individual departments maintain their turf; failure is processed through a system of judgment, resulting in either punishment or mercy 3. Generative: characterized by actively seeking and sharing info to enable the org to better enable its mission; responsibilities are shared throughout the value stream; failure results in reflection and genuine inquiry
+The strategic approach to enabling an environment of discovery and continuous improvement (a learning organization) is cultural. The ideal technology culture is a high trust one reinforcing life long learning and risk taking with a scientific approach to process improvement and product development. 
+
+Dr. Ron Westrum identified 3 types of management cultures: 
+1. Pathological: characterized by large amounts of fear and threat; people often hoard info, withhold it for political reasons, or distort it to make themselves look better; failure is often hidden 
+2. Bureaucratic: characterized by rules and processes, often to help individual departments maintain their turf; failure is processed through a system of judgment, resulting in either punishment or mercy 
+3. Generative: characterized by actively seeking and sharing info to enable the org to better enable its mission; responsibilities are shared throughout the value stream; failure results in reflection and genuine inquiry
 
 
 

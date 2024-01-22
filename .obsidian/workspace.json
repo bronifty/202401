@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "devops/the phoenix project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "devops/the phoenix project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "devops/the phoenix project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md"
+                "file": "devops/the phoenix project.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
+    "DeepLearning.AI/LLMOps/README.md",
     "devops/the phoenix project.md",
     "css/grid critters/README.md",
     "css/grid critters/media/space-evenly2.png",
@@ -160,7 +161,6 @@
     "css/grid critters/media/justify-content.png",
     "css/grid critters/media/working-the-flow.png",
     "css/grid critters/media/align-self2.png",
-    "DeepLearning.AI/LLMOps/README.md",
     "devops",
     "video-infra/mdn-dom-examples-mediastream.md",
     "video-infra/justcast.it.md",
