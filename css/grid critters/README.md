@@ -604,3 +604,27 @@ water {
   grid-column: span 2;
 }
 ```
+
+
+![](./media/easy.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+rocky {
+  height: 125px;
+  width: 75px;
+  align-self: end;
+  justify-self: end;
+}
+
+water {
+  height: 75px;
+  width: 125px;
+  align-self: start;
+  justify-self: center;
+}
+```
