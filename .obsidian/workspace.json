@@ -148,6 +148,8 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
+    "css/grid critters/media/medium.png",
+    "css/grid critters/media/challenging.png",
     "css/grid critters/media/easy.png",
     "css/grid critters/media/difficult.png",
     "css/grid critters/media/justify-and-align-self.png",
@@ -168,8 +170,6 @@
     "video-infra",
     "css/grid critters/media/auto-columns.png",
     "css/grid critters/media/flow4.png",
-    "css/grid critters/media/flow3.png",
-    "css/grid critters/media/flow2.png",
     "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/5. vertex ai.md",

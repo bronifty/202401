@@ -628,3 +628,57 @@ water {
   justify-self: center;
 }
 ```
+
+
+![](./media/challenging.png)
+
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+dunes {
+  order: -1;
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+
+rocky {
+  height: 50%;
+  align-self: end;
+}
+
+water {
+  width: 25%;
+  grid-column: span 2;
+  justify-self: center;
+}
+```
+
+
+![](./media/medium.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 150px 150px 1fr;
+  grid-gap: 5% 30px;
+}
+
+terrain {
+  grid-row: span 2;
+}
+
+rocky {
+  width: 50%;
+  justify-self: end;
+}
+
+water {
+  height: 100px;
+  align-self: end;
+}
+```
