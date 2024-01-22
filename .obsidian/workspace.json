@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/grid critters/README.md",
+                "file": "devops/the phoenix project.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/grid critters/README.md",
+                "file": "devops/the phoenix project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/grid critters/README.md",
+                "file": "devops/the phoenix project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/grid critters/README.md"
+                "file": "devops/the phoenix project.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "275a57c8c2686091",
   "lastOpenFiles": [
+    "css/grid critters/README.md",
+    "css/grid critters/media/dunes.png",
     "css/grid critters/media/repeat-auto-fit.png",
     "devops/the phoenix project.md",
     "DeepLearning.AI/LLMOps/README.md",
     "devops",
-    "css/grid critters/README.md",
     "video-infra/mdn-dom-examples-mediastream.md",
     "video-infra/justcast.it.md",
     "DeepLearning.AI/LLMOps",
@@ -168,8 +169,6 @@
     "css/grid critters/media/flow.png",
     "css/grid critters/media/packing.png",
     "css/grid critters/media/grid-auto-flow.png",
-    "css/grid critters/media/placement.png",
-    "css/grid critters/media/grid-template2.png",
     "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/5. vertex ai.md",

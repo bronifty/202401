@@ -489,4 +489,39 @@ planet {
 ```
 
 
+- grid-auto-fill and grid-auto-fit create explicit tracks whereas grid-auto-rows and grid-auto-columns create implicit tracks
+
+![](./media/dunes.png)
+```css
+planet {
+  display: grid;
+  grid-template: "dunes dunes dunes" 50px
+                 "dunes dunes dunes" 50px
+                 "dunes dunes dunes" 50px
+                 "dunes dunes dunes" 50px
+                 / 200px 1fr 200px;
+  grid-gap: 50px 5%;
+  grid-auto-rows: 50px;
+}
+
+dunes {
+  grid-row: span 2;
+}
+```
+
+```css
+
+planet {
+  display: grid;
+  grid-template-rows: repeat(4, 50px);
+  grid-template-columns: 200px 1fr 200px;
+  grid-gap: 50px 5%;
+  grid-auto-rows: 50px;
+}
+
+dunes {
+  grid-row: span 2;
+}
+```
+
 
