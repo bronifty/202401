@@ -813,3 +813,24 @@ planet {
 
 
 
+![](./media/justify-content-stretch.png)
+
+```css
+planet {
+  display: grid;
+  grid-template-columns: 200px 100px 200px;
+  grid-template-rows: 1fr;
+  justify-content: space-evenly;
+}
+```
+- justify-content: stretch is the default and auto columns fit to content to which the justify-content stretches 
+
+![](./media/align-content.png)
+```css
+planet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  align-content: center;
+}
+```
