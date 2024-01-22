@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/the phoenix project.md",
+                "file": "DeepLearning.AI/LLMOps/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/the phoenix project.md",
+                "file": "DeepLearning.AI/LLMOps/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/the phoenix project.md",
+                "file": "DeepLearning.AI/LLMOps/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/the phoenix project.md"
+                "file": "DeepLearning.AI/LLMOps/README.md"
               }
             }
           }
@@ -146,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a031c5148e112e3",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
-    "DeepLearning.AI/LLMOps/README.md",
+    "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png",
+    "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png.png",
+    "DeepLearning.AI/LLMOps/media",
     "devops/the phoenix project.md",
+    "DeepLearning.AI/LLMOps/README.md",
     "css/grid critters/README.md",
     "css/grid critters/media/space-evenly2.png",
     "css/grid critters/media/space-evenly 2.png",
@@ -160,7 +163,6 @@
     "css/grid critters/media/justify-content2.png",
     "css/grid critters/media/justify-content.png",
     "css/grid critters/media/working-the-flow.png",
-    "css/grid critters/media/align-self2.png",
     "devops",
     "video-infra/mdn-dom-examples-mediastream.md",
     "video-infra/justcast.it.md",
@@ -179,7 +181,6 @@
     "gcp-data-ml/2 data lakes",
     "gcp-data-ml/1 fundamentals",
     "gcp-data-ml",
-    "css/wes bos/css-grid/26/index.html",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
     "unisonlang/README.md",
