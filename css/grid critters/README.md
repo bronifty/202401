@@ -716,3 +716,39 @@ dunes {
   justify-self: center;
 }
 ```
+
+
+![](./media/align-self2.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .5fr minmax(auto, 1fr) .5fr;
+  align-items: center;
+}
+
+dunes {
+align-self: center;
+justify-self: center;
+
+}
+
+water {
+  height: 50%;
+  width: 40%;
+order: 1;
+/*align-self: center;*/
+}
+
+rocky {
+  height: 50%;
+  width: 40%;
+  order: -1;
+  justify-self: end;
+}
+```
+
+
+
+
+
