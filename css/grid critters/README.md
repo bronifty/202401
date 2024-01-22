@@ -682,3 +682,37 @@ water {
   align-self: end;
 }
 ```
+
+
+
+![](./media/harder.png)
+```css
+planet {
+  display: grid;
+  grid-template-rows: 1fr 100px 1fr;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-gap: 20px;
+  grid-auto-flow: row dense;
+}
+
+water {
+  width: 50%;
+  grid-column: 1/3;
+  justify-self: end; 
+}
+
+rocky {
+  width: 50%;
+  grid-column: 1/3;
+  justify-self: center;
+}
+
+dunes {
+  height: 66%;
+  width: 50%;
+  grid-row: 1/ 4;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+}
+```
