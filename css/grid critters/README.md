@@ -555,4 +555,22 @@ terrain {
 ```
 
 
+![](./media/justify-and-align-self.png)
+```css
+planet {
+  display: grid;
+  grid-template: 1fr
+               / 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-auto-rows: 200px;
+  justify-items: end;
+  align-items: center;
+}
+
+water {
+  justify-self: stretch;
+  align-self: stretch;
+}
+```
+
 
