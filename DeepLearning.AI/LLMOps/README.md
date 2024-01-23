@@ -27,3 +27,10 @@ ML Ops
 
 LLMOps v System Design
 ![](./media/llmops-v-system-design.png)
+
+- llm-driven-app
+![](./media/llm-driven-app.png)
+
+
+
+
