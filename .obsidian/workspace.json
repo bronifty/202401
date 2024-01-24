@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "nats/go.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "nats/go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "nats/go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md"
+                "file": "nats/go.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
-    "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
     "DeepLearning.AI/LLMOps/README.md",
+    "nats/go.md",
+    "nats",
+    "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png.png",
     "DeepLearning.AI/LLMOps/media",
@@ -179,7 +181,6 @@
     "gcp-data-ml/1 fundamentals/1. intro.md",
     "gcp-data-ml/2 data lakes",
     "gcp-data-ml/1 fundamentals",
-    "gcp-data-ml",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
     "unisonlang/README.md",
