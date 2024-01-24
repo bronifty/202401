@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nats/go.md",
+                "file": "nats/nex.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nats/go.md",
+                "file": "nats/nex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nats/go.md",
+                "file": "nats/nex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nats/go.md"
+                "file": "nats/nex.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
-    "DeepLearning.AI/LLMOps/README.md",
     "nats/go.md",
+    "nats/nex.md",
+    "video-infra/linux file system.md",
+    "video-infra/media/linux-file-system.png",
+    "DeepLearning.AI/LLMOps/README.md",
     "nats",
     "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png",
@@ -163,13 +166,11 @@
     "css/grid critters/media/align-content.png",
     "css/grid critters/media/justify-content-stretch.png",
     "css/grid critters/media/space-evenly.png",
-    "css/grid critters/media/justify-content2.png",
     "devops",
     "video-infra/mdn-dom-examples-mediastream.md",
     "video-infra/justcast.it.md",
     "DeepLearning.AI/LLMOps",
     "DeepLearning.AI",
-    "video-infra/linux file system.md",
     "video-infra/media",
     "video-infra",
     "temp",
@@ -192,7 +193,6 @@
     "gcp-data-ml/01 foundation/1. intro.md",
     "gcp-data-ml/01 foundation/2. data proc.md",
     "gcp-data-ml/01 foundation/3. big query.md",
-    "pathwaycom/llm-app RAG Operation.md",
-    "keystatic/next.md"
+    "pathwaycom/llm-app RAG Operation.md"
   ]
 }
