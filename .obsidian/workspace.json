@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devops/firecracker.md",
+                "file": "sysadmin/firecracker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/firecracker.md",
+                "file": "sysadmin/firecracker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/firecracker.md",
+                "file": "sysadmin/firecracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/firecracker.md"
+                "file": "sysadmin/firecracker.md"
               }
             }
           }
@@ -146,20 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a031c5148e112e3",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
     "nats/nex.md",
     "nats/go.md",
     "nats",
-    "devops/nex.md",
-    "devops/firecracker.md",
+    "sysadmin/nex.md",
+    "sysadmin/firecracker.md",
     "DeepLearning.AI/LLMOps/README.md",
     "DeepLearning.AI/LLMOps/media/llmops-pipeline.png",
     "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png.png",
     "DeepLearning.AI/LLMOps/media",
-    "devops/the phoenix project.md",
+    "sysadmin/the phoenix project.md",
     "css/grid critters/README.md",
     "css/grid critters/media/space-evenly2.png",
     "css/grid critters/media/space-evenly 2.png",
@@ -167,7 +167,7 @@
     "css/grid critters/media/align-content.png",
     "css/grid critters/media/justify-content-stretch.png",
     "css/grid critters/media/space-evenly.png",
-    "devops",
+    "sysadmin",
     "video-infra/mdn-dom-examples-mediastream.md",
     "video-infra/justcast.it.md",
     "DeepLearning.AI/LLMOps",
