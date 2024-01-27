@@ -31,6 +31,9 @@ LLMOps v System Design
 - llm-driven-app
 ![](./media/llm-driven-app.png)
 
+- llmops pipeline
+![](./media/llmops-pipeline.png)
+
 
 
 

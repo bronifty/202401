@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "devops/firecracker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "devops/firecracker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md",
+                "file": "devops/firecracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepLearning.AI/LLMOps/README.md"
+                "file": "devops/firecracker.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
-    "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
+    "devops/nex.md",
+    "devops/firecracker.md",
     "DeepLearning.AI/LLMOps/README.md",
+    "DeepLearning.AI/LLMOps/media/llmops-pipeline.png",
+    "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png",
     "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png.png",
     "DeepLearning.AI/LLMOps/media",
@@ -161,7 +164,6 @@
     "css/grid critters/media/align-content.png",
     "css/grid critters/media/justify-content-stretch.png",
     "css/grid critters/media/space-evenly.png",
-    "css/grid critters/media/justify-content2.png",
     "devops",
     "video-infra/mdn-dom-examples-mediastream.md",
     "video-infra/justcast.it.md",
@@ -191,7 +193,6 @@
     "gcp-data-ml/01 foundation/1. intro.md",
     "gcp-data-ml/01 foundation/2. data proc.md",
     "gcp-data-ml/01 foundation/3. big query.md",
-    "pathwaycom/llm-app RAG Operation.md",
-    "keystatic/next.md"
+    "pathwaycom/llm-app RAG Operation.md"
   ]
 }
