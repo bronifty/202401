@@ -14,6 +14,7 @@
 Install NATS Server and Golang
 ```bash
 NATS_SERVER_VERSION="2.10.9"
+NATS_CLI_VERSION="0.1.1"
 
 # update image and install unzip
 apt update && apt install unzip
@@ -22,7 +23,8 @@ curl -L https://github.com/nats-io/nats-server/releases/download/v"${NATS_SERVER
 unzip nats-server.zip -d nats-server
 sudo cp nats-server/nats-server-v"${NATS_SERVER_VERSION}"-linux-amd64/nats-server /usr/local/bin
 
-curl -fsSL https://github.com/nats-io/natscli/releases/download/v0.1.1/nats-0.1.1-amd64.deb 
+curl -fsSL -o nats-cli.deb https://github.com/nats-io/natscli/releases/download/v"${NATS_CLI_VERSION}"/nats-"${NATS_CLI_VERSION}"-amd64.deb 
+dpkg -i nats-cli.deb
 ```
 
 
