@@ -6,7 +6,7 @@
       {
         "id": "cffa03c68c437348",
         "type": "tabs",
-        "dimension": 44.01993355481728,
+        "dimension": 47.038327526132406,
         "children": [
           {
             "id": "2a031c5148e112e3",
@@ -50,7 +50,7 @@
       {
         "id": "f5d3c17d7a39bcf3",
         "type": "tabs",
-        "dimension": 55.98006644518272,
+        "dimension": 52.961672473867594,
         "children": [
           {
             "id": "a55e128e6efd8082",
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5026054382324
+    "width": 257.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "f6a900f763e84ff6",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md",
+                "file": "sysadmin/nex/firecracker-config.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md",
+                "file": "sysadmin/nex/firecracker-config.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md"
+                "file": "sysadmin/nex/firecracker-config.json.md"
               }
             }
           }
@@ -191,10 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a55e128e6efd8082",
+  "active": "c9e0fa8b21af1499",
   "lastOpenFiles": [
-    "sysadmin/nex/firecracker-config.json.md",
     "sysadmin/nex/shebang.sh.md",
+    "sysadmin/nex/firecracker-config.json.md",
     "sysadmin/nex/variables.sh.md",
     "sysadmin/nex/nex.md",
     "sysadmin/nex/firecracker.sh.md",
