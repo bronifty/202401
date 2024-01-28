@@ -56,7 +56,6 @@ curl --unix-socket /tmp/firecracker.socket -i \
     
 # log file
 LOGFILE="./firecracker.log"
-rm $LOGFILE
 touch $LOGFILE
 curl --unix-socket /tmp/firecracker.socket -i \
 -X PUT 'http://localhost/logger' \
