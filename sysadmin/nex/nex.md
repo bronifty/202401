@@ -13,6 +13,8 @@
 
 Install NATS Server and Golang
 ```bash
+#!/bin/bash
+# bash variables
 NATS_SERVER_VERSION="2.10.9"
 NATS_CLI_VERSION="0.1.1"
 GOLANG_VERSION="1.21.6"
@@ -30,7 +32,7 @@ curl -fsSL -o nats-cli.deb https://github.com/nats-io/natscli/releases/download/
 dpkg -i nats-cli.deb
 
 # download and install go
-curl -fsSL -o golang.tar.gz https://go.dev/dl/go"${GOLANG_VERSION}".linux-amd64.tar.gz
+curl -fsSL -o go"${GOLANG_VERSION}".linux-amd64.tar.gz https://go.dev/dl/go"${GOLANG_VERSION}".linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go"${GOLANG_VERSION}".linux-amd64.tar.gz
 
 # add go to the path
@@ -40,6 +42,7 @@ echo ""
 echo "export PATH=\$PATH:/usr/local/go/bin"
 echo ""
 } >> ~/.bashrc
+source ~/.bashrc
 
 
 ```

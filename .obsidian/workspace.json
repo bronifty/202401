@@ -159,12 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c52ab038a82a031",
+  "active": "c045aa767c0b1fb0",
   "lastOpenFiles": [
-    "sysadmin/nex/firecrackersetup.sh.md",
     "sysadmin/nex/shebang.sh.md",
-    "sysadmin/nex/firecrackerapi.sh.md",
     "sysadmin/nex/nex.md",
+    "sysadmin/nex/firecrackersetup.sh.md",
+    "sysadmin/nex/firecrackerapi.sh.md",
     "sysadmin/nex/firecracker.md",
     "sysadmin/nex",
     "sysadmin/nex/vm_config.json.md",
