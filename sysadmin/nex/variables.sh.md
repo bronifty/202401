@@ -1,13 +1,13 @@
 ```bash
 
 # bash variables
-NATS_SERVER_VERSION="2.10.9"
-NATS_CLI_VERSION="0.1.1"
-GOLANG_VERSION="1.21.6"
-ARCH="$(uname -m)"
-KERNEL_VERSION="5.10.204"
-ROOTFS_VERSION="22.04"
-FIRECRACKER_SOCKET="/tmp/firecracker.socket"
-KERNEL_IMAGE_PATH="vmlinux-${KERNEL_VERSION}"
-ROOTFS_PATH="ubuntu-${ROOTFS_VERSION}"
+export NATS_SERVER_VERSION="2.10.9"
+export NATS_CLI_VERSION="0.1.1"
+export GOLANG_VERSION="1.21.6"
+export ARCH="$(uname -m)"
+export KERNEL_VERSION="5.10.204"
+export ROOTFS_VERSION="22.04"
+export FIRECRACKER_SOCKET="/tmp/firecracker.socket"
+export KERNEL_IMAGE_PATH="vmlinux-${KERNEL_VERSION}"
+export ROOTFS_PATH="ubuntu-${ROOTFS_VERSION}"
 ```

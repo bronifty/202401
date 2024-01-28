@@ -6,7 +6,7 @@ import [variables.sh](./variables.sh)
 
 {
   "boot-source": {
-    "kernel_image_path": "vmlinux.bin",
+    "kernel_image_path": "",
     "boot_args": "console=ttyS0 reboot=k panic=1 pci=off",
     "initrd_path": null
   },
@@ -39,3 +39,7 @@ import [variables.sh](./variables.sh)
   "entropy": null
 }
 ```
+
+
+
+envsubst < input.json > output.json
