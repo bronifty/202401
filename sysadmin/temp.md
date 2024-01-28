@@ -1,4 +1,5 @@
 - reset script
+	- use this in the terminal to start the firecracker binary
 ```bash
 
 API_SOCKET="/tmp/firecracker.socket"
@@ -9,7 +10,7 @@ sudo ./firecracker --api-sock "${API_SOCKET}"
 
 ```
 
-
+- do these commands on the host in a separate window to hit the firecracker binary's api rest endpoints on localhost
 ```bash
 
 
