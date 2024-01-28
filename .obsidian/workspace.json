@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9e0fa8b21af1499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sysadmin/nex/shebang.sh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/nex/nex.md",
+                "file": "sysadmin/nex/shebang.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/nex/nex.md",
+                "file": "sysadmin/nex/shebang.sh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/nex/nex.md"
+                "file": "sysadmin/nex/shebang.sh.md"
               }
             }
           }
@@ -159,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c045aa767c0b1fb0",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
+    "sysadmin/nex/firecracker.md",
     "sysadmin/nex/shebang.sh.md",
     "sysadmin/nex/nex.md",
     "sysadmin/nex/firecrackersetup.sh.md",
     "sysadmin/nex/firecrackerapi.sh.md",
-    "sysadmin/nex/firecracker.md",
     "sysadmin/nex",
     "sysadmin/nex/vm_config.json.md",
     "sysadmin/temp.md",

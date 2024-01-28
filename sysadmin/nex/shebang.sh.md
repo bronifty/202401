@@ -1,8 +1,10 @@
 
 
 ```bash
-
 #!/bin/bash
+
+# install nex prerequisites - nats go firecracker
+
 # bash variables
 NATS_SERVER_VERSION="2.10.9"
 NATS_CLI_VERSION="0.1.1"
@@ -33,15 +35,21 @@ echo ""
 } >> ~/.bashrc
 source ~/.bashrc
 
-
-
-
+# download and install firecracker
+ARCH="$(uname -m)"
+release_url="https://github.com/firecracker-microvm/firecracker/releases"
+latest=$(basename $(curl -fsSLI -o /dev/null -w  %{url_effective} ${release_url}/latest))
+curl -L ${release_url}/download/${latest}/firecracker-${latest}-${ARCH}.tgz \
+| tar -xz
+mv release-${latest}-$(uname -m)/firecracker-${latest}-${ARCH} firecracker
+mv firecracker /usr/local/bin
 
 
 # clone firecracker repo
 git clone https://github.com/firecracker-microvm/firecracker.git firecracker-repo
 
-
+# clone nex repo
+git clone https://github.com/synadia-io/nex.git nex-repo
 
 
 
