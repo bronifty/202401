@@ -146,13 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c52ab038a82a031",
+  "active": "2a031c5148e112e3",
   "lastOpenFiles": [
+    "sysadmin/nex.md",
+    "sysadmin/firecracker.md",
     "nats/nex.md",
     "nats/go.md",
     "nats",
-    "sysadmin/nex.md",
-    "sysadmin/firecracker.md",
     "DeepLearning.AI/LLMOps/README.md",
     "DeepLearning.AI/LLMOps/media/llmops-pipeline.png",
     "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
