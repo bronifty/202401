@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/nex.md",
+                "file": "sysadmin/vm_config.json.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/nex.md",
+                "file": "sysadmin/vm_config.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/nex.md",
+                "file": "sysadmin/vm_config.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/nex.md"
+                "file": "sysadmin/vm_config.json.md"
               }
             }
           }
@@ -149,10 +149,11 @@
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
     "sysadmin/firecracker.md",
+    "sysadmin/nex.md",
+    "sysadmin/vm_config.json.md",
     "sysadmin/firecrackersetup.sh.md",
     "sysadmin/firecrackerapi.sh.md",
     "sysadmin/temp.md",
-    "sysadmin/nex.md",
     "nats/nex.md",
     "nats/go.md",
     "nats",
@@ -192,7 +193,6 @@
     "unisonlang/README.md",
     "wasmcloud/README.md",
     "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
-    "gcp-data-ml/01 foundation/5. vertex ai.md",
-    "rust/notes.md"
+    "gcp-data-ml/01 foundation/5. vertex ai.md"
   ]
 }
