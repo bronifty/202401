@@ -58,4 +58,58 @@ curl -L ${release_url}/download/${latest}/firecracker-${latest}-${ARCH}.tgz \
 mv release-${latest}-$(uname -m)/firecracker-${latest}-${ARCH} firecracker
 ```
 
+- run the firecracker binary as a daemonic process on a socket
+```bash
+API_SOCKET="/tmp/firecracker.socket"
 
+# Remove API unix socket
+sudo rm -f $API_SOCKET
+
+# Run firecracker
+sudo ./firecracker --api-sock "${API_SOCKET}"
+```
+
+
+- configure the vm
+	- with a config file
+```bash
+./firecracker --api-sock /tmp/firecracker.socket --config-file ./vm_config.json
+
+```
+
+```json
+{
+  "boot-source": {
+    "kernel_image_path": "vmlinux-5.10.204",
+    "boot_args": "console=ttyS0 reboot=k panic=1 pci=off",
+    "initrd_path": null
+  },
+  "drives": [
+    {
+      "drive_id": "rootfs", 
+      "partuuid": null,
+      "is_root_device": true,
+      "cache_type": "Unsafe",
+      "is_read_only": false,
+      "path_on_host": "ubuntu-22.04.ext4",
+      "io_engine": "Sync",
+      "rate_limiter": null,
+      "socket": null
+    }
+  ],
+  "machine-config": {
+    "vcpu_count": 2,
+    "mem_size_mib": 1024,
+    "smt": false,
+    "track_dirty_pages": false
+  },
+  "cpu-config": null,
+  "balloon": null,
+  "network-interfaces": [],
+  "vsock": null,
+  "logger": null,
+  "metrics": null,
+  "mmds-config": null,
+  "entropy": null
+}
+```
