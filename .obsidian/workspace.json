@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md",
+                "file": "sysadmin/nex/firecracker-config.json.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,6 +45,24 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "f5d3c17d7a39bcf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a55e128e6efd8082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sysadmin/nex/variables.sh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5026054382324
   },
   "right": {
     "id": "f6a900f763e84ff6",
@@ -110,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md",
+                "file": "sysadmin/nex/firecracker-config.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md",
+                "file": "sysadmin/nex/firecracker-config.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/nex/shebang.sh.md"
+                "file": "sysadmin/nex/firecracker-config.json.md"
               }
             }
           }
@@ -171,13 +189,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9e0fa8b21af1499",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
-    "sysadmin/nex/firecracker.md",
-    "sysadmin/nex/firecrackersetup.sh.md",
-    "sysadmin/nex/firecrackerapi.sh.md",
-    "sysadmin/nex/shebang.sh.md",
+    "sysadmin/nex/variables.sh.md",
+    "sysadmin/nex/firecracker-config.json.md",
     "sysadmin/nex/nex.md",
+    "sysadmin/nex/firecracker.sh.md",
+    "sysadmin/nex/shebang.sh.md",
+    "sysadmin/nex/firecrackersetup.sh.md",
+    "sysadmin/nex/firecracker.md",
+    "sysadmin/nex/firecrackerapi.sh.md",
     "sysadmin/nex",
     "sysadmin/nex/vm_config.json.md",
     "sysadmin/temp.md",
@@ -215,9 +236,6 @@
     "gcp-data-ml/1 fundamentals/1. intro.md",
     "gcp-data-ml/2 data lakes",
     "css/wes bos/css-grid/readme.md",
-    "css/wes bos/wes bos css grid mozilla course.md",
-    "unisonlang/README.md",
-    "wasmcloud/README.md",
-    "gcp-data-ml/02 intro to ai & ml on gcp/intro.md"
+    "css/wes bos/wes bos css grid mozilla course.md"
   ]
 }
