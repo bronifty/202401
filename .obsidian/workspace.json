@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/vm_config.json.md",
+                "file": "sysadmin/nex/firecrackerapi.sh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c045aa767c0b1fb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sysadmin/nex/nex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/vm_config.json.md",
+                "file": "sysadmin/nex/nex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/vm_config.json.md",
+                "file": "sysadmin/nex/nex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/vm_config.json.md"
+                "file": "sysadmin/nex/nex.md"
               }
             }
           }
@@ -146,13 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a031c5148e112e3",
+  "active": "0c52ab038a82a031",
   "lastOpenFiles": [
-    "sysadmin/firecracker.md",
-    "sysadmin/nex.md",
-    "sysadmin/vm_config.json.md",
-    "sysadmin/firecrackersetup.sh.md",
-    "sysadmin/firecrackerapi.sh.md",
+    "sysadmin/nex/firecrackersetup.sh.md",
+    "sysadmin/nex/shebang.sh.md",
+    "sysadmin/nex/firecrackerapi.sh.md",
+    "sysadmin/nex/nex.md",
+    "sysadmin/nex/firecracker.md",
+    "sysadmin/nex",
+    "sysadmin/nex/vm_config.json.md",
     "sysadmin/temp.md",
     "nats/nex.md",
     "nats/go.md",
@@ -187,12 +202,10 @@
     "gcp-data-ml/1 fundamentals/2. data proc.md",
     "gcp-data-ml/1 fundamentals/1. intro.md",
     "gcp-data-ml/2 data lakes",
-    "gcp-data-ml/1 fundamentals",
     "css/wes bos/css-grid/readme.md",
     "css/wes bos/wes bos css grid mozilla course.md",
     "unisonlang/README.md",
     "wasmcloud/README.md",
-    "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
-    "gcp-data-ml/01 foundation/5. vertex ai.md"
+    "gcp-data-ml/02 intro to ai & ml on gcp/intro.md"
   ]
 }

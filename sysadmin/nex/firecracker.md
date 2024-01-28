@@ -60,11 +60,49 @@ mv release-${latest}-$(uname -m)/firecracker-${latest}-${ARCH} firecracker
 mv firecracker /usr/local/bin
 ```
 
+
+----------------------------------------------
+
+
+
+### Start Firecracker with Config
+```bash
+# firecrackerapi.sh
+API_SOCKET="/tmp/firecracker.socket"
+# Remove API unix socket
+sudo rm -f $API_SOCKET
+
+firecracker --api-sock /tmp/firecracker.socket --config-file ./vm_config.json
+
+```
+
+[vm_config.json](vm_config.json.md)
+
+### Setup Networking in the Guest OS (inside Firecracker)
+```bash
+ip addr add 172.16.0.2/24 dev eth0
+ip link set eth0 up
+ip route add default via 172.16.0.1 dev eth0
+```
+
+
+
+
+
+
+
+
+
+-------------------------
+
+
+
+
 ### Start and Config Firecracker with Networking
 1. run the fc daemon
-[firecrackerapi.sh](./firecrackerapi.sh)
+[firecrackerapi.sh](firecrackerapi.sh.md)
 2. setup the vm and hop in
-[firecrackersetup.sh](./firecrackersetup.sh)
+[firecrackersetup.sh](firecrackersetup.sh.md)
 
 - reset script
 	- use this in the terminal to start the firecracker binary
@@ -237,13 +275,4 @@ curl --unix-socket /tmp/firecracker.socket -i \
 
 
 
-
-
-### Start Firecracker with Config
-```bash
-firecracker --api-sock /tmp/firecracker.socket --config-file ./vm_config.json
-
-```
-
-[vm_config.json](./vm_config.json)
 
