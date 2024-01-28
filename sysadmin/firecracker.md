@@ -70,6 +70,7 @@ sudo rm -f $API_SOCKET
 sudo ./firecracker --api-sock "${API_SOCKET}"
 ```
 
+- manually set boot source
 ```bash
 kernel_path=$(pwd)"/vmlinux-5.10.204"
 
@@ -83,7 +84,20 @@ curl --unix-socket /tmp/firecracker.socket -i \
 	}"
 ```
 
-
+- manually set boot filesystem
+```bash
+rootfs_path=$(pwd)"/ubuntu-22.04.ext4"
+curl --unix-socket /tmp/firecracker.socket -i \
+-X PUT 'http://localhost/drives/rootfs' \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json' \
+-d "{
+	\"drive_id\": \"rootfs\",
+	\"path_on_host\": \"${rootfs_path}\",
+	\"is_root_device\": true,
+	\"is_read_only\": false
+}"
+```
 
 
 
