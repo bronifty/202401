@@ -1,4 +1,13 @@
 
+- [agent](https://github.com/synadia-io/nex/blob/main/agent) - kubelet
+- [fc-image](https://github.com/synadia-io/nex/blob/main/agent/fc-image) -  container runtime (containerd)
+- [node](https://github.com/synadia-io/nex/blob/main/internal/node) - control plane / kube-controller-manager and kube-scheduler
+- [nex](https://github.com/synadia-io/nex/blob/main/nex) - kubectl / cli
+
+
+
+
+
 
 
 

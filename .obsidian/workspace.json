@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/firecracker.md",
+                "file": "sysadmin/nex.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/firecracker.md",
+                "file": "sysadmin/nex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/firecracker.md",
+                "file": "sysadmin/nex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/firecracker.md"
+                "file": "sysadmin/nex.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
-    "sysadmin/firecrackersetup.sh.md",
     "sysadmin/firecracker.md",
+    "sysadmin/firecrackersetup.sh.md",
     "sysadmin/firecrackerapi.sh.md",
     "sysadmin/temp.md",
     "sysadmin/nex.md",
