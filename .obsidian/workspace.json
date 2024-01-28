@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/firecracker.md",
+                "file": "sysadmin/temp.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/firecracker.md",
+                "file": "sysadmin/temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/firecracker.md",
+                "file": "sysadmin/temp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/firecracker.md"
+                "file": "sysadmin/temp.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
-    "sysadmin/nex.md",
     "sysadmin/firecracker.md",
+    "sysadmin/temp.md",
+    "sysadmin/nex.md",
     "nats/nex.md",
     "nats/go.md",
     "nats",
@@ -192,7 +193,6 @@
     "gcp-data-ml/01 foundation/5. vertex ai.md",
     "rust/notes.md",
     "gcp-data-ml/01 foundation/4. gcp ml options.md",
-    "gcp-data-ml/01 foundation/1. intro.md",
-    "gcp-data-ml/01 foundation/2. data proc.md"
+    "gcp-data-ml/01 foundation/1. intro.md"
   ]
 }

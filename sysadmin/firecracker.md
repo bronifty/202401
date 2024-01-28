@@ -110,7 +110,27 @@ curl --unix-socket /tmp/firecracker.socket -i \
 }'
 ```
 
+- set up networking
+```bash
+# Create the TAP device
+sudo ip tuntap add dev tap0 mode tap
 
+# Bring the TAP device up
+sudo ip link set dev tap0 up
+
+# Assign an IP address to the TAP device
+sudo ip addr add 172.16.0.1/24 dev tap0
+
+curl --unix-socket /tmp/firecracker.socket -i \
+  -X PUT 'http://localhost/network-interfaces/eth0' \
+  -H 'Accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+      "iface_id": "eth0",
+      "guest_mac": "AA:FC:00:00:00:01",
+      "host_dev_name": "tap0"
+    }'
+```
 
 
 
