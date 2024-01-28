@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/temp.md",
+                "file": "sysadmin/firecracker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/temp.md",
+                "file": "sysadmin/firecracker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/temp.md",
+                "file": "sysadmin/firecracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sysadmin/temp.md"
+                "file": "sysadmin/firecracker.md"
               }
             }
           }
@@ -148,7 +148,9 @@
   },
   "active": "2a031c5148e112e3",
   "lastOpenFiles": [
+    "sysadmin/firecrackersetup.sh.md",
     "sysadmin/firecracker.md",
+    "sysadmin/firecrackerapi.sh.md",
     "sysadmin/temp.md",
     "sysadmin/nex.md",
     "nats/nex.md",
@@ -191,8 +193,6 @@
     "wasmcloud/README.md",
     "gcp-data-ml/02 intro to ai & ml on gcp/intro.md",
     "gcp-data-ml/01 foundation/5. vertex ai.md",
-    "rust/notes.md",
-    "gcp-data-ml/01 foundation/4. gcp ml options.md",
-    "gcp-data-ml/01 foundation/1. intro.md"
+    "rust/notes.md"
   ]
 }
