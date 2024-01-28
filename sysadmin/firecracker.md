@@ -58,20 +58,7 @@ curl -L ${release_url}/download/${latest}/firecracker-${latest}-${ARCH}.tgz \
 mv release-${latest}-$(uname -m)/firecracker-${latest}-${ARCH} firecracker
 ```
 
-- run the firecracker binary as a daemonic process on a socket
-```bash
-API_SOCKET="/tmp/firecracker.socket"
-
-# Remove API unix socket
-sudo rm -f $API_SOCKET
-
-# Run firecracker
-sudo ./firecracker --api-sock "${API_SOCKET}"
-```
-
-
-- configure the vm
-	- with a config file
+- configure and run the firecracker microvm
 ```bash
 ./firecracker --api-sock /tmp/firecracker.socket --config-file ./vm_config.json
 
