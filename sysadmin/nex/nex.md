@@ -33,6 +33,15 @@ dpkg -i nats-cli.deb
 curl -fsSL -o golang.tar.gz https://go.dev/dl/go"${GOLANG_VERSION}".linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go"${GOLANG_VERSION}".linux-amd64.tar.gz
 
+# add go to the path
+cp ~/.bashrc ~/.bashrc.backup
+{
+echo ""
+echo "export PATH=\$PATH:/usr/local/go/bin"
+echo ""
+} >> ~/.bashrc
+
+
 ```
 
 
