@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sysadmin/nex/firecrackerapi.sh.md",
+                "file": "sysadmin/nex/firecracker.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c52ab038a82a031",
+  "active": "c9e0fa8b21af1499",
   "lastOpenFiles": [
     "sysadmin/nex/firecracker.md",
-    "sysadmin/nex/shebang.sh.md",
-    "sysadmin/nex/nex.md",
     "sysadmin/nex/firecrackersetup.sh.md",
     "sysadmin/nex/firecrackerapi.sh.md",
+    "sysadmin/nex/shebang.sh.md",
+    "sysadmin/nex/nex.md",
     "sysadmin/nex",
     "sysadmin/nex/vm_config.json.md",
     "sysadmin/temp.md",

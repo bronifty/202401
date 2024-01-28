@@ -9,13 +9,16 @@
 NATS_SERVER_VERSION="2.10.9"
 NATS_CLI_VERSION="0.1.1"
 GOLANG_VERSION="1.21.6"
+ARCH="$(uname -m)"
+KERNEL_VERSION="5.10.204"
+ROOTFS_VERSION="22.04"
 
 # update image and install unzip
 apt update && apt install unzip
 
 #download nats-server unzip and cp to /usr/local/bin
 curl -L https://github.com/nats-io/nats-server/releases/download/v"${NATS_SERVER_VERSION}"/nats-server-v"${NATS_SERVER_VERSION}"-linux-amd64.zip -o nats-server.zip
-unzip nats-server.zip -d nats-server
+unzip -o nats-server.zip -d nats-server
 sudo cp nats-server/nats-server-v"${NATS_SERVER_VERSION}"-linux-amd64/nats-server /usr/local/bin
 
 # download and install nats client
@@ -44,18 +47,24 @@ curl -L ${release_url}/download/${latest}/firecracker-${latest}-${ARCH}.tgz \
 mv release-${latest}-$(uname -m)/firecracker-${latest}-${ARCH} firecracker
 mv firecracker /usr/local/bin
 
+# download and install kernel and rootfs
+# Download a linux kernel binary
+curl -fsSL -o vmlinux-"${KERNEL_VERSION}" https://s3.amazonaws.com/spec.ccfc.min/firecracker-ci/v1.7/${ARCH}/vmlinux-"${KERNEL_VERSION}" 
+
+# Download a rootfs
+curl -fsSL -o ubuntu-"${ROOTFS_VERSION}".ext4 https://s3.amazonaws.com/spec.ccfc.min/firecracker-ci/v1.7/${ARCH}/ubuntu-"${ROOTFS_VERSION}".ext4
+
+# Download the ssh key for the rootfs
+curl -fsSL -o ubuntu-"${ROOTFS_VERSION}".id_rsa https://s3.amazonaws.com/spec.ccfc.min/firecracker-ci/v1.7/${ARCH}/ubuntu-"${ROOTFS_VERSION}".id_rsa
+
+# Set user read permission on the ssh key
+chmod 400 ./ubuntu-"${ROOTFS_VERSION}".id_rsa
 
 # clone firecracker repo
 git clone https://github.com/firecracker-microvm/firecracker.git firecracker-repo
 
 # clone nex repo
 git clone https://github.com/synadia-io/nex.git nex-repo
-
-
-
-
-
-
 
 
 ```
