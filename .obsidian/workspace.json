@@ -12,40 +12,11 @@
             "id": "2a031c5148e112e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sysadmin/nex/firecracker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c045aa767c0b1fb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sysadmin/nex/nex.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9e0fa8b21af1499",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sysadmin/nex/firecracker-config.json.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "f5d3c17d7a39bcf3",
@@ -56,12 +27,8 @@
             "id": "a55e128e6efd8082",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sysadmin/nex/shebang.sh.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -114,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5026054382324,
-    "collapsed": true
+    "width": 257.5026054382324
   },
   "right": {
     "id": "f6a900f763e84ff6",
@@ -131,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sysadmin/nex/firecracker-config.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sysadmin/nex/firecracker-config.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sysadmin/nex/firecracker-config.json.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -192,45 +154,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9e0fa8b21af1499",
+  "active": "a55e128e6efd8082",
   "lastOpenFiles": [
-    "sysadmin/nex/shebang.sh.md",
-    "sysadmin/nex/firecracker-config.json.md",
-    "sysadmin/nex/variables.sh.md",
-    "sysadmin/nex/nex.md",
-    "sysadmin/nex/firecracker.sh.md",
-    "sysadmin/nex/firecrackersetup.sh.md",
-    "sysadmin/nex/firecracker.md",
-    "sysadmin/nex/firecrackerapi.sh.md",
-    "sysadmin/nex",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/6.jpg",
+    "gcp-data-ml/1 fundamentals/gcp-data.png",
+    "gcp-data-ml/1 fundamentals/feature-importance.png",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/10.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/2.jpg",
+    "gcp-data-ml/1 fundamentals/ml-ops.png",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/1.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/9.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/3.jpg",
+    "css/wes bos/css-grid/20 - CSS Grid Image Gallery/images/5.jpg",
+    "gcp-data-ml/1 fundamentals/google-ml-options.png",
+    "video-infra/media",
+    "video-infra/mdn-dom-examples-mediastream.md",
+    "video-infra/linux file system.md",
+    "video-infra/justcast.it.md",
+    "video-infra",
     "sysadmin/nex/vm_config.json.md",
-    "sysadmin/temp.md",
+    "sysadmin/nex/variables.sh.md",
+    "sysadmin/nex/shebang.sh.md",
+    "sysadmin/nex/nex.md",
+    "sysadmin/nex/firecrackersetup.sh.md",
+    "sysadmin/nex/firecrackerapi.sh.md",
+    "sysadmin/nex/firecracker.sh.md",
+    "sysadmin/nex/firecracker.md",
+    "sysadmin/nex/firecracker-config.json.md",
+    "sysadmin/the phoenix project.md",
+    "sysadmin/nex",
+    "sysadmin",
     "nats/nex.md",
     "nats/go.md",
     "nats",
-    "DeepLearning.AI/LLMOps/README.md",
-    "DeepLearning.AI/LLMOps/media/llmops-pipeline.png",
-    "DeepLearning.AI/LLMOps/media/llm-driven-app.png",
-    "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png",
-    "DeepLearning.AI/LLMOps/media/llmops-v-system-design.png.png",
-    "DeepLearning.AI/LLMOps/media",
-    "sysadmin/the phoenix project.md",
-    "css/grid critters/README.md",
-    "css/grid critters/media/space-evenly2.png",
-    "css/grid critters/media/space-evenly 2.png",
-    "css/grid critters/media/space-evenly 1.png",
-    "css/grid critters/media/align-content.png",
-    "css/grid critters/media/justify-content-stretch.png",
-    "css/grid critters/media/space-evenly.png",
-    "sysadmin",
-    "video-infra/mdn-dom-examples-mediastream.md",
-    "video-infra/justcast.it.md",
-    "DeepLearning.AI/LLMOps",
-    "DeepLearning.AI",
-    "video-infra/linux file system.md",
-    "video-infra/media",
-    "video-infra",
-    "temp",
     "gcp-data-ml/2 data lakes/1. intro.md",
     "gcp-data-ml/1 fundamentals/5. vertex ai.md",
     "gcp-data-ml/1 fundamentals/4. gcp ml options.md",
@@ -238,7 +194,13 @@
     "gcp-data-ml/1 fundamentals/2. data proc.md",
     "gcp-data-ml/1 fundamentals/1. intro.md",
     "gcp-data-ml/2 data lakes",
+    "gcp-data-ml/1 fundamentals",
+    "gcp-data-ml",
+    "css/wes bos/css-grid/assets/style.css",
+    "css/wes bos/css-grid/assets/images",
     "css/wes bos/css-grid/readme.md",
-    "css/wes bos/wes bos css grid mozilla course.md"
+    "css/wes bos/wes bos css grid mozilla course.md",
+    "css/grid critters/README.md",
+    "DeepLearning.AI/LLMOps/README.md"
   ]
 }
