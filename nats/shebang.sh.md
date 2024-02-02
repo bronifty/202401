@@ -1,5 +1,7 @@
 
 ```bash
+
+
 #!/bin/bash
 # bash variables
 export NATS_SERVER_VERSION="2.10.9"
@@ -20,10 +22,7 @@ git config --global user.name "bronifty"
 git config --global user.email "bronifty@gmail.com"
 echo -e "\n\n\n" | sudo ssh-keygen -t rsa -b 4096 -C "bronifty@gmail.com" -N ""
 
-# terraform setup
-wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
-sudo apt update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y terraform
+
 
 # Add utility method for github
 echo 'alias gitpushmain="git branch -M main && git add . && git commit -am '\''this'\'' && git push -u origin main"' >> ~/.bashrc
@@ -48,6 +47,12 @@ sudo rm go"${GOLANG_VERSION}".linux-amd64.tar.gz
 # Set Go path
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 
+
+# # terraform setup
+# wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+# echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+# sudo apt update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y terraform
+
 # # Install fnm, rust, snapd services, git-lfs, and aws cli without user interaction
 # curl -fsSL https://fnm.vercel.app/install | bash
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
@@ -55,7 +60,6 @@ echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 # curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 # sudo DEBIAN_FRONTEND=noninteractive apt-get install -y git-lfs=3.4.0
 # curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip && sudo ./aws/install
-
 
 
 ```
